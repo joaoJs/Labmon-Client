@@ -4,17 +4,22 @@
   justify-content: flex-end;
   flex-direction: row-reverse;
   width: 100%;
+  height: 500px;
 }
 
 .squaresWrapper {
-  box-shadow: 0 0 15px rgb(100,100,100);
-  width: 80%;
-  margin-left: 10%;
+  /*box-shadow: 0 0 20px rgb(220,220,220);*/
+  width: 100%;
+  /*margin-left: 20%;*/
+  /*border-radius: 10px;*/
+  position: relative;
+  bottom: 20px;
+  /*margin-top: 30px;*/
 }
 
 .white,
 .gray {
-  height: 400px;
+  /*height: 400px;*/
   width: 50%;
   box-sizing: border-box;
   /*float: right;*/
@@ -25,15 +30,55 @@
 }
 
 .gray {
-  background: rgb(235,235,235);
+  /*background: rgb(247,247,247);*/
+  background: white;
 }
 
 .space {
   height: 200px;
   width: 100%;
+  background: linear-gradient(rgb(230,245,254), white);
+  position: relative;
+  bottom: 30px;
 }
 
 .carousel {
   width: 100%;
   height: 600px;
+  background: rgb(230,245,254);
+  position: relative;
+  bottom: 20px;
+}
+
+
+.pic {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pic_one {
+  background: url('https://alteracoesclimaticas.files.wordpress.com/2016/03/loti-fevereiro-2016.png?w=756');
+}
+
+.pic_two {
+  background: url('http://1.bp.blogspot.com/_I6srzsUVEgk/TS90Wh054kI/AAAAAAAAACo/mRtfRT9JZfg/s400/corrente0001.jpg');
+}
+
+.pic_three {
+  background: url('http://meioambiente.culturamix.com/blog/wp-content/gallery/corrente-maritima-caracteristicas-gerais-3/corrente-maritima-caracteristicas-gerais-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pic_four {
+  background: url('http://rumoaomar.org.br/file/2016/11/amazonia_azul.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#left_control {
+  background: rgba(255,255,255,.0);
+}
+
+#right_control {
+  background: rgba(255,255,255,.0);
 }

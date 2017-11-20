@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background: rgb(230,245,254);
+  /*background: rgb(230,245,254);*/
+  /*background: linear-gradient(rgb(230,245,254), white);*/
+  /*background: rgb(100,200,255);*/
+  background: white;
+}
+
+#nav_override {
+  background: white;
 }
