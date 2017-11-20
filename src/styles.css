@@ -6,6 +6,16 @@ body {
   background: white;
 }
 
-#nav_override {
+/*#nav_override {
   background: white;
+}*/
+
+nav {
+  height: 150px;
+  padding: 20px;
+}
+
+.logo {
+  background: url('logo.png');
+  height: 100px;
 }
