@@ -18,9 +18,10 @@
 <div ngbDropdown>
   <button class="btn" id="dropdownConfig" ngbDropdownToggle>Labmon</button>
   <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-    <button class="dropdown-item">Action - 1</button>
-    <button class="dropdown-item">Another Action</button>
-    <button class="dropdown-item">Something else is here</button>
+    <a routerLink="/labmon/about"  routerLinkActive="active" class="dropdown-item">About</a>
+    <button routerLink="/labmon/team"  routerLinkActive="active" class="dropdown-item">Team</button>
+    <button routerLink="/labmon/links"  routerLinkActive="active" class="dropdown-item">Links</button>
+    <button routerLink="/labmon/videos"  routerLinkActive="active" class="dropdown-item">Videos</button>
   </div>
 </div>
 
