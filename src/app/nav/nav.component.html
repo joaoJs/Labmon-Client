@@ -21,39 +21,23 @@
 </div>
 
 <div ngbDropdown>
-  <button class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle>Courses</button>
-  <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-    <button class="dropdown-item">Action - 1</button>
-    <button class="dropdown-item">Another Action</button>
-    <button class="dropdown-item">Something else is here</button>
-  </div>
+  <button routerLink="/courses" class="btn btn-outline-primary" id="home_button">Courses</button>
 </div>
 
 <div ngbDropdown>
-  <button class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle>Projects</button>
-  <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-    <button class="dropdown-item">Action - 1</button>
-    <button class="dropdown-item">Another Action</button>
-    <button class="dropdown-item">Something else is here</button>
-  </div>
+  <button routerLink="/projects" class="btn btn-outline-primary" id="home_button">Projects</button>
 </div>
 
 <div ngbDropdown>
   <button class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle>Publications</button>
   <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-    <button class="dropdown-item">Action - 1</button>
-    <button class="dropdown-item">Another Action</button>
-    <button class="dropdown-item">Something else is here</button>
+    <button routerLink="/publications/papers"  routerLinkActive="active" class="dropdown-item">Papers</button>
+    <button routerLink="/publications/supervision"  routerLinkActive="active" class="dropdown-item">Supervision</button>
   </div>
 </div>
 
 <div ngbDropdown>
-  <button class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle>Contact</button>
-  <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-    <button class="dropdown-item">Action - 1</button>
-    <button class="dropdown-item">Another Action</button>
-    <button class="dropdown-item">Something else is here</button>
-  </div>
+  <button routerLink="/contact" class="btn btn-outline-primary" id="home_button">Contact</button>
 </div>
 
 </div>

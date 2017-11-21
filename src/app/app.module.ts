@@ -10,6 +10,13 @@ import { TeamComponent } from './labmon/team/team.component';
 import { LinksComponent } from './labmon/links/links.component';
 import { VideosComponent } from './labmon/videos/videos.component';
 import { HomeComponent } from './home/home.component';
+import { CoursesComponent } from './courses/courses.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { PapersComponent } from './publications/papers/papers.component';
+import { SupervisionComponent } from './publications/supervision/supervision.component';
+import { PublicationsComponent } from './publications/publications.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 const myRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,6 +24,12 @@ const myRoutes: Routes = [
   { path: 'labmon/team',     component: TeamComponent },
   { path: 'labmon/links',     component: LinksComponent },
   { path: 'labmon/videos',     component: VideosComponent },
+  { path: 'courses',     component: CoursesComponent },
+  { path: 'projects',     component: ProjectsComponent },
+  { path: 'publications/papers',     component: PapersComponent },
+  { path: 'publications/supervision',     component: SupervisionComponent },
+  { path: 'contact',     component: ContactComponent }
+
 ];
 
 @NgModule({
@@ -27,7 +40,13 @@ const myRoutes: Routes = [
     TeamComponent,
     LinksComponent,
     VideosComponent,
-    HomeComponent
+    HomeComponent,
+    CoursesComponent,
+    ProjectsComponent,
+    PapersComponent,
+    SupervisionComponent,
+    PublicationsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
