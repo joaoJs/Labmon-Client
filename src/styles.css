@@ -3,7 +3,15 @@ body {
   /*background: rgb(230,245,254);*/
   /*background: linear-gradient(rgb(230,245,254), white);*/
   /*background: rgb(100,200,255);*/
-  background: white;
+  /*background: white;*/
+  /*background: url('ocean.jpg');
+  background-size: cover;*/
+  /*background: url('ocean2.jpg');
+  background-size: cover;*/
+  /*background: rgb(153,201,218);*/
+  background: linear-gradient(rgb(153,201,218), rgb(109,171,184), rgb(153,201,218), rgb(109,171,184), rgb(153,201,218));
+  /*rgb(63,111,112)*/
+
 }
 
 /*#nav_override {

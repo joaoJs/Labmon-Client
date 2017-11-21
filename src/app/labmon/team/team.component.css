@@ -1,0 +1,36 @@
+.item-page {
+  padding: 40px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#pessoal {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px;
+  /*background: rgb(248,248,248);*/
+  background: linear-gradient(rgba(0,142,168,.2), rgba(0,142,168,.5), rgba(0,142,168,.2));
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.foto {
+  /*padding-left: 20px;*/
+  /*box-sizing: border-box;*/
+  width: 20%;
+}
+
+.texto {
+  /*padding: 20px;*/
+  /*margin-bottom: 20px;*/
+  /*box-sizing: border-box;*/
+  width: 80%;
+}

@@ -50,6 +50,12 @@ h3 {
   /*background: white;*/
 }
 
+.carousel_wrapper {
+  width: 80%;
+  margin-left: 10%;
+}
+
+
 ngb-carousel {
   width: 100%;
 }
